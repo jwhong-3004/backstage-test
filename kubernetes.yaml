@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: my-kubernetes-component
   annotations:
-    backstage.io/kubernetes-id: value  
+    backstage.io/kubernetes-id: standard-eks  
 spec:
   lifecycle: production
   owner: guests
