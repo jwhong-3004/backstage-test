@@ -4,7 +4,7 @@ metadata:
   name: my-kubernetes-component
   annotations:
     backstage.io/kubernetes-id: my-kubernetes-component 
-    backstage.io/techdocs-ref: url:https://backstage.io/docs
+    backstage.io/techdocs-ref: url:https://backstage.io
 spec:
   lifecycle: production
   owner: guests
