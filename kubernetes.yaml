@@ -5,6 +5,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: my-kubernetes-component 
     backstage.io/techdocs-ref: url:https://github.com/jwhong-3004/backstage-test/tree/main
+    github.com/project-slug: jwhong3004/backstage-ec2
 spec:
   lifecycle: production
   owner: guests
