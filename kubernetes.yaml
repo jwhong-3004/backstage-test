@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: kubernetes-component
   annotations:
-#    backstage.io/kubernetes-id: kubernetes-component 
+    backstage.io/kubernetes-id: kubernetes-component 
     backstage.io/techdocs-ref: url:https://github.com/jwhong-3004/backstage-test
     github.com/project-slug: jwhong-3004/backstage-test
 #    argocd/proxy-url: '/argocd/api'
