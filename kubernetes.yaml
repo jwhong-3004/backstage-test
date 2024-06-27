@@ -6,7 +6,7 @@ metadata:
 #    backstage.io/kubernetes-id: kubernetes-component 
     backstage.io/techdocs-ref: url:https://github.com/jwhong-3004/backstage-test
     github.com/project-slug: jwhong-3004/backstage-test
-    argocd/proxy-url: '/argocd/api'
+#    argocd/proxy-url: '/argocd/api'
     argocd/app-name: test
 spec:
   lifecycle: production
