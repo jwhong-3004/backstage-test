@@ -4,7 +4,7 @@ metadata:
   name: sample-system
   description: "A sample system"
   annotations:
-    goharbor.io/repository-slug: app/app-c 
+    goharbor.io/repository-slug: harbor-standard.kuberix.co.kr/app/app-c 
 spec:
   lifecycle: production
   owner: guests
