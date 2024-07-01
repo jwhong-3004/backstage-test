@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: jwhong-3004/backstage-test
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: test
-    prometheus.io/rule: 'sum by (pod_name) (container_cpu_usage_seconds_total{pod_name="my-kubernetes-component-74b648f6d4-qhvwh",container_name="ubuntu"})'
+    prometheus.io/PrometheusGraph: sum by (pod_name) (container_cpu_usage_seconds_total{pod_name="my-kubernetes-component-74b648f6d4-qhvwh",container_name="ubuntu"})
 spec:
   lifecycle: production
   owner: guests
