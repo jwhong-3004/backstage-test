@@ -8,7 +8,8 @@ metadata:
     github.com/project-slug: jwhong-3004/backstage-test
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: test
-    prometheus.io/rule: memUsage|component
+    prometheus.io/rule: cluster:cpu_usage:rate5m
+spec:    
   lifecycle: production
   owner: guests
   type: service
