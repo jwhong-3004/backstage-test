@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: jwhong-3004/backstage-test
     argocd/proxy-url: '/argocd/api'
     argocd/app-name: test
-    prometheus.io/rule: cpuUsage|component,container_cpu_usage_seconds_total{container_name="ubuntu",pod_name="application-77848cdb44-nk9d5"}
+    prometheus.io/rule: cpuUsage|component,container_cpu_usage_seconds_total
 spec:
   lifecycle: production
   owner: guests
